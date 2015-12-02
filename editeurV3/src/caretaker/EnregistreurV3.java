@@ -14,11 +14,13 @@ import receiver.MoteurEdition;
 public interface EnregistreurV3 {
 	/**
 	 * Défait la dernière commande
+	 * @param moteur moteur à défaire
 	 */
 	public void defaire(MoteurEditionEnregistrable moteur);
 	
 	/**
 	 * Refait la dernière commande défaite
+	 * @param moteur moteur à défaire
 	 */
 	public void refaire(MoteurEditionEnregistrable moteur);
 	
@@ -36,7 +38,7 @@ public interface EnregistreurV3 {
 
 	/**
 	 * Retourne un memento du Caretaker
-	 * @param index
+	 * @param index index dans la liste de memento du caretaker
 	 * @return memento de la liste de mementos du caretaker correspondant à l'index placé en paramètre
 	 */
 	public Memento getMemento(int index);

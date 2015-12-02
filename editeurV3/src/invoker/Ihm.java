@@ -151,7 +151,7 @@ public class Ihm extends JFrame implements Observer, ActionListener, KeyListener
 
 	/**
 	 * Affecte la comande CollerEnregistrableV2 à l'IHM (Invoker)
-	 * @param cmdCollerEnregistrable Commande CollerEnregistrable V2 de l'IHM
+	 * @param cmdCollerEnregistrableV2 Commande CollerEnregistrable V2 de l'IHM
 	 */
 	public void setCmdCollerEnregistrableV2(CollerEnregistrableV2 cmdCollerEnregistrableV2) {
 		this.cmdCollerEnregistrableV2 = cmdCollerEnregistrableV2;
@@ -159,7 +159,7 @@ public class Ihm extends JFrame implements Observer, ActionListener, KeyListener
 
 	/**
 	 * Affecte la comande CopierEnregistrableV2 à l'IHM (Invoker)
-	 * @param cmdCopierEnregistrable Commande CopierEnregistrable V2 de l'IHM
+	 * @param cmdCopierEnregistrableV2 Commande CopierEnregistrable V2 de l'IHM
 	 */
 	public void setCmdCopierEnregistrableV2(CopierEnregistrableV2 cmdCopierEnregistrableV2) {
 		this.cmdCopierEnregistrableV2 = cmdCopierEnregistrableV2;
@@ -167,7 +167,7 @@ public class Ihm extends JFrame implements Observer, ActionListener, KeyListener
 
 	/**
 	 * Affecte la comande CouperEnregistrableV2 à l'IHM (Invoker)
-	 * @param cmdCouperEnregistrable Commande CouperEnregistrable V2 de l'IHM
+	 * @param cmdCouperEnregistrableV2 Commande CouperEnregistrable V2 de l'IHM
 	 */
 	public void setCmdCouperEnregistrableV2(CouperEnregistrableV2 cmdCouperEnregistrableV2) {
 		this.cmdCouperEnregistrableV2 = cmdCouperEnregistrableV2;
@@ -175,7 +175,7 @@ public class Ihm extends JFrame implements Observer, ActionListener, KeyListener
 
 	/**
 	 * Affecte la comande SaisirEnregistrableV2 à l'IHM (Invoker)
-	 * @param cmdSaisirEnregistrable Commande SaisirEnregistrable V2 de l'IHM
+	 * @param cmdSaisirEnregistrableV2 Commande SaisirEnregistrable V2 de l'IHM
 	 */
 	public void setCmdSaisirEnregistrableV2(SaisirEnregistrableV2 cmdSaisirEnregistrableV2) {
 		this.cmdSaisirEnregistrableV2 = cmdSaisirEnregistrableV2;
@@ -183,7 +183,7 @@ public class Ihm extends JFrame implements Observer, ActionListener, KeyListener
 
 	/**
 	 * Affecte la comande SelectionnerEnregistrableV2 à l'IHM (Invoker)
-	 * @param cmdSelectionnerEnregistrable Commande SelectionnerEnregistrable V2 de l'IHM
+	 * @param cmdSelectionnerEnregistrableV2 Commande SelectionnerEnregistrable V2 de l'IHM
 	 */
 	public void setCmdSelectionnerEnregistrableV2(SelectionnerEnregistrableV2 cmdSelectionnerEnregistrableV2) {
 		this.cmdSelectionnerEnregistrableV2 = cmdSelectionnerEnregistrableV2;
@@ -191,7 +191,7 @@ public class Ihm extends JFrame implements Observer, ActionListener, KeyListener
 
 	/**
 	 * Affecte la comande SuppressionArriereEnregistrableV2 à l'IHM (Invoker)
-	 * @param cmdSuppressionArriereEnregistrable Commande SuppressionArriereEnregistrable V2 de l'IHM
+	 * @param cmdSuppressionArriereEnregistrableV2 Commande SuppressionArriereEnregistrable V2 de l'IHM
 	 */
 	public void setCmdSuppressionArriereEnregistrableV2(SuppressionArriereEnregistrableV2 cmdSuppressionArriereEnregistrableV2) {
 		this.cmdSuppressionArriereEnregistrableV2 = cmdSuppressionArriereEnregistrableV2;
@@ -199,7 +199,7 @@ public class Ihm extends JFrame implements Observer, ActionListener, KeyListener
 
 	/**
 	 * Affecte la comande SuppressionAvantEnregistrableV2 à l'IHM (Invoker)
-	 * @param cmdSuppressionAvantEnregistrable Commande SuppressionAvantEnregistrable V2 de l'IHM
+	 * @param cmdSuppressionAvantEnregistrableV2 Commande SuppressionAvantEnregistrable V2 de l'IHM
 	 */
 	public void setCmdSuppressionAvantEnregistrableV2(SuppressionAvantEnregistrableV2 cmdSuppressionAvantEnregistrableV2) {
 		this.cmdSuppressionAvantEnregistrableV2 = cmdSuppressionAvantEnregistrableV2;
@@ -207,7 +207,7 @@ public class Ihm extends JFrame implements Observer, ActionListener, KeyListener
 
 	/**
 	 * Affecte la comande CollerEnregistrableV3 à l'IHM (Invoker)
-	 * @param cmdCollerEnregistrable Commande CollerEnregistrable V3 de l'IHM
+	 * @param cmdCollerEnregistrableV3 Commande CollerEnregistrable V3 de l'IHM
 	 */
 	public void setCmdCollerEnregistrableV3(CollerEnregistrableV3 cmdCollerEnregistrableV3) {
 		this.cmdCollerEnregistrableV3 = cmdCollerEnregistrableV3;
@@ -215,7 +215,7 @@ public class Ihm extends JFrame implements Observer, ActionListener, KeyListener
 
 	/**
 	 * Affecte la comande CouperEnregistrableV3 à l'IHM (Invoker)
-	 * @param cmdCouperEnregistrable Commande CouperEnregistrable V3 de l'IHM
+	 * @param cmdCouperEnregistrableV3 Commande CouperEnregistrable V3 de l'IHM
 	 */
 	public void setCmdCouperEnregistrableV3(CouperEnregistrableV3 cmdCouperEnregistrableV3) {
 		this.cmdCouperEnregistrableV3 = cmdCouperEnregistrableV3;
@@ -223,7 +223,7 @@ public class Ihm extends JFrame implements Observer, ActionListener, KeyListener
 
 	/**
 	 * Affecte la comande SaisirEnregistrableV3 à l'IHM (Invoker)
-	 * @param cmdSaisirEnregistrable Commande SaisirEnregistrable V3 de l'IHM
+	 * @param cmdSaisirEnregistrableV3 Commande SaisirEnregistrable V3 de l'IHM
 	 */
 	public void setCmdSaisirEnregistrableV3(SaisirEnregistrableV3 cmdSaisirEnregistrableV3) {
 		this.cmdSaisirEnregistrableV3 = cmdSaisirEnregistrableV3;

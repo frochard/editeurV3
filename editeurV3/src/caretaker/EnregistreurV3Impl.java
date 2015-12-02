@@ -80,7 +80,7 @@ public class EnregistreurV3Impl implements EnregistreurV3 {
 
 	/**
 	 * Retourne un memento du Caretaker
-	 * @param index
+	 * @param index index dans la liste de memento du caretaker
 	 * @return memento de la liste de mementos du caretaker correspondant à l'index placé en paramètre
 	 */
 	@Override

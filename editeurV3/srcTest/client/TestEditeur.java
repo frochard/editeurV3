@@ -12,6 +12,12 @@ import commandV3.*;
 import invoker.*;
 import receiver.*;
 
+/**
+ *Classe de test de l'éditeur de la version 3
+ *Teste les nouvelles commandes de la V3. 
+ *@author Sanaa Mairouch / Frédéric Rochard
+ *@version V3 - 02/12/2015
+ */
 public class TestEditeur {
 
 	private Editeur testEditeur;
@@ -21,8 +27,6 @@ public class TestEditeur {
 		//Instanciation de l'objet utilisé pour les tests
 		testEditeur = new Editeur();
 	}
-
-
 	
 	/**
 	 * Test de l'enregistreur pour la commande défaire
@@ -65,8 +69,6 @@ public class TestEditeur {
 		assertEquals(" est un test.", testEditeur.getMoteurEditionEnregistrable().getBuffer().getContenu().toString());
 	}
 
-	
-	
 	/**
 	 * Test de l'enregistreur pour la commande défaire
 	 */
@@ -109,5 +111,4 @@ public class TestEditeur {
 		//méthodes de test
 		assertEquals(" est un test.Ceci", testEditeur.getMoteurEditionEnregistrable().getBuffer().getContenu().toString());
 	}
-
 }

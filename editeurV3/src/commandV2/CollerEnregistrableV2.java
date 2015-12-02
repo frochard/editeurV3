@@ -23,7 +23,7 @@ public class CollerEnregistrableV2 extends Coller implements CommandEnregistrabl
 		super(receiver);
 		this.enregistreur=enregistreur;
 	}
-	
+
 	/**
 	 * Exécution de la commande concrete dans les receiver (moteur d'édition et enregistreur)
 	 */
@@ -47,7 +47,7 @@ public class CollerEnregistrableV2 extends Coller implements CommandEnregistrabl
 
 	/**
 	 * Cette méthode restaure la commande enregistrable depuis un memento
-	 * @param mRestored memento à restaurer
+	 * @param m memento à restaurer
 	 */
 	@Override
 	public void restaurerDepuisMemento(Memento m) {

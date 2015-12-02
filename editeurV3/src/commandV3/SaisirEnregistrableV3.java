@@ -5,15 +5,29 @@ import command.*;
 import invoker.Ihm;
 import receiver.*;
 
+/**
+ *Commande concrete dans le Design Pattern Command. Elle Provoque l’exécution de l’opération SaisirEnregistrableV3 par le moteur d'édition(receiver). 
+ *@author Sanaa Mairouch / Frédéric Rochard
+ *@version V3 - 02/12/2015
+ */
 public class SaisirEnregistrableV3 extends Saisir implements CommandEnregistrableV3 {
 
 	private EnregistreurV3Impl enregistreur;
 	
+	/**
+	 * Constructeur 
+	 * @param receiver Moteur d'édition de la commande
+	 * @param invocator IHM de la commande
+	 * @param enregistreur Enregistreur de la commande
+	 */
 	public SaisirEnregistrableV3(MoteurEditionImpl receiver, Ihm invocator,EnregistreurV3Impl enregistreur) {
 		super(receiver,invocator);
 		this.enregistreur=enregistreur;
 	}
 
+	/**
+	 * Exécution de la commande concrete dans les receiver (moteur d'édition et enregistreur)
+	 */
 	@Override
 	public void execute() {
 		//On exécute la commande V1
@@ -24,5 +38,4 @@ public class SaisirEnregistrableV3 extends Saisir implements CommandEnregistrabl
 		MoteurEditionEnregistrable m = (MoteurEditionEnregistrable) this.receiver;
 		enregistreur.enregistrer(m);
 	}
-
 }
