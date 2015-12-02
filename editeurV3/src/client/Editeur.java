@@ -12,6 +12,12 @@ import commandV3.*;
 import invoker.*;
 import receiver.*;
 
+/**
+ *Client dans le Design Pattern Commande
+ *L’éditeur configure l’invoker (Ihm) en créant et configurant les commandes concrètes. 
+ *@author Sanaa Mairouch / Frédéric Rochard
+ *@version V3 - 30/11/2015
+ */
 public class Editeur{
 	
 	private Ihm ihm;
@@ -41,18 +47,34 @@ public class Editeur{
 	private Defaire cmdDefaire;
 	private Refaire cmdRefaire;
 
+	/**
+	 * retourne l'IHM de l'éditeur
+	 * @return ihm ihm de l'éditeur 
+	 */
 	public Ihm getIhm() {
 		return ihm;
 	}
 
+	/**
+	 * retourne le moteur d'édition de l'éditeur
+	 * @return moteurEdition moteur d'édition de l'éditeur
+	 */
 	public MoteurEditionEnregistrable getMoteurEditionEnregistrable() {
 		return moteurEditionEnregistrable;
 	}
 
+	/**
+	 * retourne l'enregistreur de la V2 de l'éditeur
+	 * @return enregistreurV2 enregistreur de la V2 de l'éditeur
+	 */
 	public EnregistreurV2Impl getEnregistreurV2() {
 		return enregistreurV2;
 	}
 
+	/**
+	 * retourne l'enregistreur de la V3 de l'éditeur
+	 * @return enregistreurV3 enregistreur de la V3 de l'éditeur
+	 */
 	public EnregistreurV3Impl getEnregistreurV3() {
 		return enregistreurV3;
 	}
@@ -67,8 +89,6 @@ public class Editeur{
 		this.enregistreurV3=new EnregistreurV3Impl();
 		//Création de l'IHM
 		this.ihm = new Ihm();
-//		-------------------------A décommenter pour V1---------------------
-		//this.moteurEdition=new MoteurEditionImpl(new Buffer(new StringBuffer("")),new PressePapier(""),new Selection(0,0));
 		this.moteurEditionEnregistrable=new MoteurEditionEnregistrable(new Buffer(new StringBuffer("")),new PressePapier(""),new Selection(0,0),enregistreurV3);
 		//Ajout des commandes
 		cmdColler=new Coller(moteurEditionEnregistrable);
